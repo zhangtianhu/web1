@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>制作html表单</title>
+</head>
+<body>
+<table  border="1" action="http://10.7.1.98/taozhuo/form_data.php" method="get">
+<tr>
+<td width="79" > 用户名：</td>
+<td width="309"><input type="text" name="user name"></td>
+</tr>
+<tr>
+<td width="79" >密码：</td>
+<td width="309"> <input type="password" name="password"></td>
+</tr>
+<tr>
+<td width="79"  >确认密码：</td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td width="79">性别：</td>
+<td> <input type="radio" name="gender">男<input type="radio" name="gender">女</td>
+</tr>
+<tr>
+<td width="79">生日：</td>
+<td><select>
+<option>公历</option>
+</select>
+<select>
+<option>年</option>
+</select>
+<select>
+<option>月</option>
+</select>
+<select>
+<option>日</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>所在地</td>
+<td><select><option>中国</option>
+</select>
+<select>
+<option>河北</option>
+</select>
+<select>
+<option>石家庄</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>验证码</td>
+<td><input type="text" ></td>
+</tr>
+<tr>
+<td>证件类型</td>
+<td>
+<select>
+<option>身份证</option>
+</select></td>
+</tr>
+<tr>
+<td>证件号：</td>
+<td> <input type="text" ></td>
+</tr>
+<tr>
+<td>爱好：</td>
+<td> <input type="checkbox" >音乐
+<input type="checkbox" >读书
+<input type="checkbox" >跳舞
+<input type="checkbox" >下棋
+<input type="checkbox" >其他
+</td>
+</tr>
+<tr>
+<td>
+说明：
+</td>
+<td>
+<textarea cols="4" rows="2" style="width: 400px;height: 160px;"></textarea>
+</td>
+</tr>
+<tr>
+<td>上传头像</td>
+<td> <input type="file" ></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="提交" >  <input type="reset" value="重置">  <input type="button" value="按钮">
+</td>
+</tr>
+</table>
+</body>
+</html>
