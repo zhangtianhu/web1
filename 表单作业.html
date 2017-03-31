@@ -4,7 +4,8 @@
 	<title>制作html表单</title>
 </head>
 <body>
-<table  border="1" action="http://10.7.1.98/taozhuo/form_data.php" method="get">
+<table  border="1">
+<form action="http://10.7.1.98/taozhuo/form_data.php" method="get">
 <tr>
 <td width="79" > 用户名：</td>
 <td width="309"><input type="text" name="user name"></td>
@@ -50,8 +51,8 @@
 </td>
 </tr>
 <tr>
-<td>验证码</td>
-<td><input type="text" ></td>
+<td>验证码 </td>
+<td><input type="text" ><img src="https://github.com/edu2act/course-web1/blob/master/Ch05%20Build%20a%20page-3/lab5/code/images/yanzhengma.jpg"></td>
 </tr>
 <tr>
 <td>证件类型</td>
@@ -90,6 +91,7 @@
 <input type="submit" value="提交" >  <input type="reset" value="重置">  <input type="button" value="按钮">
 </td>
 </tr>
+</form>
 </table>
 </body>
 </html>
