@@ -1,0 +1,35 @@
+body{
+	font-size: 12px;
+	font-family: Arial;
+	line-height: 2em;
+}
+a{
+	color: #727272;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.ptwz{
+	font-size: 14px;
+	color: #b9f605;
+	font-weight: bold;
+}
+.c{
+	color: white;
+}
+.white{
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+}
+.white a:link{
+	color: gray;
+}
+.jg:hover{
+	color: #b9f605;
+	text-decoration:none;
+}
+.special{
+	color: #fdb306;
+}
