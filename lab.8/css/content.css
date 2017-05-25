@@ -1,0 +1,169 @@
+body{
+	padding:0px;
+	background-image: url(../images/bodybg.gif);
+	color: #522a06;
+	font-size: 12px;
+}
+#header{
+	height: 205px;
+	background: url(../images/bg.gif);
+}
+#banner{
+      width: 1000px;
+      height: 164px;
+      position: absolute;
+      left: 25px;
+      top: 38px;
+}
+#nav{
+	height: 40px;
+	background: url(../images/nav.jpg);
+
+}
+.nav-body{
+	width: 1000px;
+	 margin: 0 auto;
+}
+.nav-content{
+	width: 800px;
+	font-weight: 800;
+	line-height: 40px;
+	float: left;
+}
+.nav-content a{
+	color: #fff;
+}
+.tb{
+	color: #f9f603;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+color: #f9f603;
+}
+.nav-search{
+	float: left;
+	width: 140px;
+	height: 19px;
+	background-color:#f8f5ee;
+	margin: 10px;
+	position: relative;
+}
+.button{
+	width: 44px;
+	height: 21px;
+	background: #000;
+	color: #fff;
+	border-width: 1px;
+	border-image: solid;
+	border-color: #f8f5ee;
+	position: absolute;
+	left: 152px;
+	top: 1px;
+}
+.zhu{
+	width: 1000px;
+	overflow: none;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.zuo{
+	width: 700px;
+	float: left;
+}
+.you{
+	width: 280px;
+	float: left;
+	margin-left: 16px;
+}
+.nd{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 43px;
+}
+.hb{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-bottom: 1px solid #c9baa5;
+}
+.wy{
+	text-align: center;
+	font-size: 12px;
+	color: #757575;
+	position: relative;
+	bottom: 15px;
+}
+.wenzi{
+	text-indent: 2em;
+	position: relative;
+	top:50px;
+	margin-top: 5px;
+	line-height: 28px;
+	padding: 10px;
+	font-size: 14px;
+	border-bottom: 1px solid #c9baa5;
+}
+.tu{
+	margin: 20px;
+}
+.lj{
+	height: 40px;
+	line-height: 40px;
+	margin-top: 50px;
+	font-size: 13px;
+}
+.slj{
+	margin-right: 40px;
+	color: #844004;
+	font-size: 13px;
+}
+.zg{
+border: 1px solid #c9baa5;
+background-image: url(../images/bg.png);
+margin-top: 30px;
+height: 280px;
+width: 260px;
+line-height: 30px;
+margin-left: 13px;
+}
+.dis li a{
+	list-style-type: none;
+	position: relative;
+	right: 15px;
+	color: #522a06;
+}
+.ouy{
+background-image: url(../images/show_bg.png);
+	float: right;
+	width: 280px;
+	height: 362px;
+	text-align: center;
+	font-size: 90%;
+	margin-top: 20px;
+}
+.ouyang{
+	color: red;
+}
+.zi{
+	width: 250px;
+	position: relative;
+	left: 10px;
+	line-height: 15px;
+}
+#footer{
+	height: 105px;
+	float: left;
+	width: 1000px;
+	background-image: url(../images/foot.gif);
+	text-align: center;
+}
+.ds li{
+	display: inline-block;
+	list-style-type: none;
+}
+.ds li a{
+	color:#522a06;
+}
