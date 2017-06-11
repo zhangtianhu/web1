@@ -79,8 +79,6 @@ color: #f9f603;
 	color: red;
 	font-weight: bold;
 	font-size: 20px;
-	position: relative;
-	top:8px;
 }
 .jz a:hover{
 	opacity: 0.5;
