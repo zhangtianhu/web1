@@ -1,0 +1,126 @@
+body{
+	padding:0px;
+}
+#header{
+	background-image: url(../images/头.jpg);
+	height: 205px;
+}
+#banner1{
+	float: left;
+}
+
+#nav{
+	background-image: url(../images/nav.jpg);
+	height: 40px;
+}
+.nav-body{
+	width: 1000px;
+	 margin: 0 auto;
+}
+.nav-content{
+	width: 800px;
+	font-weight: 800;
+	line-height: 40px;
+	float: left;
+	font-size: 17px;
+}
+.nav-content a{
+	color: #fff;
+}
+#header a:hover{
+	opacity: 0.5;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+color: #f9f603;
+}
+
+.nav-search{
+	float: left;
+
+
+	background-color:#f8f5ee;
+	margin: 10px;
+	position: relative;
+}
+.button{
+	width: 44px;
+	height: 21px;
+	background: #000;
+	color: #fff;
+	border-width: 1px;
+	border-color: #f8f5ee;
+	position: absolute;
+	left: 152px;
+	top: 1px;
+}
+.zhu{
+	width: 1000px;
+	overflow: none;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.zuo{
+	width: 320px;
+	margin: 20px;
+	float: left;
+	position: relative;
+	top:15px;
+}
+.jiaoshi{
+	color: red;
+	font-weight: bold;
+}
+.jz{
+	width: 320px;
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	top:8px;
+}
+.jz a:hover{
+	opacity: 0.5;
+}
+.zhong{
+	float: left;
+	margin: 20px;
+	width: 600px;
+	color: #000;
+}
+.zhong a{
+	color: red;
+}
+.biaoti{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.wenzi{
+	text-indent: 2em;
+	line-height: 28px;
+	color: #522a06;
+
+}
+h1{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+#footer{
+	height: 105px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+.ds li{
+	display: inline-block;
+	list-style-type: none;
+}
+.ds li a{
+	color:#333333;
+}
