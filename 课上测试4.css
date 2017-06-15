@@ -1,0 +1,30 @@
+#one{
+	position: absolute;
+	left: 0px;
+	top:0px;
+	z-index: 1;
+	color: #33ccff;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+#two{
+	z-index: 2;
+	color: #66cc33;
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	position: absolute;
+	top:30px;
+	left: 30px;
+}
+#three{
+	z-index: 3;
+	color: #996699;
+	width: 200px;
+	height: 200px;
+	background-color: purple;
+	position: absolute;
+	top:60px;
+ 	left: 60px;
+}

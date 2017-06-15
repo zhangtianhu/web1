@@ -1,0 +1,27 @@
+#da{
+	width: 1000px;
+	height: 500px;
+}
+.left{
+	width: 230px;
+	height: 500px;
+	float: left;
+}
+.right{
+	float: left;
+	width: 770px;
+	height: 500px;
+	text-indent: 2em;
+}
+h1{
+	font-size: 25px;
+	color: #000066;
+}
+h2{
+	color: red;
+
+	font-size: 21px;
+}
+p{
+	text-indent: 2em;
+}

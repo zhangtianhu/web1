@@ -1,0 +1,37 @@
+#zong{
+    width: 1000px;
+    height: 600px;
+}
+#header{
+	width: 1000px;
+	height: 100px;
+	border: 1px solid;
+}
+#zhong{
+	width: 1000px;
+	height: 500px;
+	border:1px solid;
+}
+#left{
+	width: 100px;
+	height: 500px;
+	border: 1px solid;
+	float: left;
+}
+#center{
+		width: 800px;
+	height: 500px;
+	border: 1px solid;
+	float: left;
+}
+#right{
+		width: 100px;
+	height: 500px;
+	border: 1px solid;
+
+}
+#bottom{
+	width: 1000px;
+	height: 100px;
+	border:1px solid;
+}
