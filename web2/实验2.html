@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>计算器</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	.btn{
+		width: 60px;
+		height: 60px;
+	}
+	#display{
+		text-align: right;
+	}
+	</style>
+	<script type="text/javascript">
+		var num=0,yes=0,sese=0,result=0,numshow="0";
+		function show(num){
+		var str=String(document.getElementById("display").value);
+		str=(str!="0") ? ((yes==0) ? str : "") : "";
+		str=str + String(num);
+		document.getElementById("display").value=str;
+		yes=0;
+	}
+	function clears(){
+		num=0;
+		result=0;
+		numshow="0";
+		document.getElementById("display").value="";
+
+	}
+	function plus(){
+		num=Number(document.getElementById("display").value);
+		yes=1;
+		sese=1;
+	}
+	function minus(){
+		num=Number(document.getElementById("display").value);
+		yes=1;
+		sese=2;
+	}
+	function times(){
+		num=Number(document.getElementById("display").value);
+		yes=1;
+		sese=3;
+	}
+	function divide(){
+		num=Number(document.getElementById("display").value);
+		yes=1;
+		sese=4;
+	}
+	function equal(){
+		add();
+		num=0;
+		result=0;
+		numshow="0";
+		sese=1;
+	}
+	function add(){
+	numshow=Number(document.getElementById("display").value);
+	switch(sese){ 
+		case 1:result=num+numshow;break; 
+		case 2:result=num-numshow;break; 
+		case 3:result=num*numshow;break;
+		case 4:result=num/numshow;break;
+		case 5:result=num%numshow;break;
+	}
+	numshow=String(result);
+	document.getElementById("display").value=numshow;
+	num=result;
+	}
+	</script>
+</head>
+<body>
+<table border="1"  cellpadding="10" >
+	<tr>
+		<td colspan="3" ><input type="text" name="text" id="display" value="" style="height: 50px; width:200px">
+			
+		</td>
+		<td>
+			<input type="button" name="co" value="c" class="btn" onclick="clears(value)">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="button" name="1" value="1" class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="2" value="2" class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="3" value="3" class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="+" value="+" class="btn" onclick="plus(value)">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="button" name="4" value="4" class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="5" value="5" class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="6" value="6" class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="-" value="-" class="btn" onclick="minus(value)">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="button" name="7" value="7" class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="8" value="8" class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="9" value="9" class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="*" value="*" class="btn" onclick="times(value)">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="button" name="0" value="0" class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="." value="." class="btn" onclick="show(value)">
+		</td>
+		<td>
+			<input type="button" name="=" value="=" class="btn" onclick="equal(value)">
+		</td>
+		<td>
+			<input type="button" name="/" value="/" class="btn" onclick="divide(value)">
+		</td>
+	</tr>
+</table>
+</body>
+</html>
