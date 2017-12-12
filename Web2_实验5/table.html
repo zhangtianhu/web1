@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表格</title>
+	<meta charset="utf-8" />
+	<style type="text/css">
+		*{
+			font-size: 36px;
+		}
+		tr{
+			height: 30px;
+		}
+	</style>
+	<script type="text/javascript">
+	function add(){
+		var a=document.getElementsByTagName('tr')[0];
+	 	var tr=document.createElement('tr');
+	 	tr.onmouseover=col;
+	 	tr.onmouseout=col1;
+	 	tr.innerHTML=a.innerHTML;
+	 	document.getElementsByTagName("table")[0].appendChild(tr);
+	}
+	function de(){
+		document.getElementsByTagName("table")[0].removeChild(document.getElementsByTagName("table")[0].lastChild);
+	}
+	function col(){
+		this.style.background="#BEBEBE";
+	}
+	function col1(){
+		this.style.background="";
+	}
+	window.onload=function(){
+		var c=document.getElementsByTagName("tr")[0];
+		c.onmouseover=col;
+		c.onmouseout=col1;
+	}
+	</script>
+</head>
+<body>
+	<table width="1000px" border="1">
+		<tr height="30px" >
+			<td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr>
+	</table>
+	<input type="button" name="" id="add" value="添加一行" style="margin-left:840px;" onclick="add()" />
+	<input type="button" name="" id="delete" value="删除一行" style="margin-left:840px;" onclick="de()" />
+</body>
+</html>
