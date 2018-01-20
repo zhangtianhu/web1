@@ -1,0 +1,273 @@
+body{
+	padding:0px;
+	background-image: url(../images/bodybg.gif);
+}
+#header{
+	background-image: url(../images/头.jpg);
+	height: 205px;
+}
+#banner1{
+	float: left;
+}
+
+#nav{
+	background-image: url(../images/nav.jpg);
+	height: 40px;
+}
+.nav-body{
+	width: 1000px;
+	 margin: 0 auto;
+}
+.nav-content{
+	width: 800px;
+	font-weight: 800;
+	line-height: 40px;
+	float: left;
+	font-size: 17px;
+}
+.nav-content a{
+	color: #fff;
+}
+#header a:hover{
+	opacity: 0.5;
+}
+#tb{
+	color: #FAA755;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+color: #f9f603;
+}
+
+.nav-search{
+	float: left;
+
+
+	background-color:#f8f5ee;
+	margin: 10px;
+	position: relative;
+}
+.button{
+	width: 44px;
+	height: 21px;
+	background: #000;
+	color: #fff;
+	border-width: 1px;
+	border-color: #f8f5ee;
+	position: absolute;
+	left: 152px;
+	top: 1px;
+}
+.zhu{
+	width: 100%;
+   margin: 0 auto;
+}
+.dw{
+	color: red;
+	font-weight: 20px;
+}
+.zuo{
+	float: left;
+	width: 300px;
+	height: 270px;
+	line-height: 20px;
+	background-image: url(../images/bodybg.gif);
+}
+#frame {/*----------图片轮播相框容器----------*/  
+        position: absolute; /*--绝对定位，方便子元素的定位*/  
+        width: 480px;  
+        height: 270px;  
+        overflow: hidden;/*--相框作用，只显示一个图片---*/  
+        border-radius:5px;  
+    }  
+#photos img {  
+        float: left;  
+        width:480px;  
+        height:270px;  
+    }  
+#photos {/*---设置总的图片宽度--通过位移来达到轮播效果----*/  
+        position: absolute;
+        z-index:9px;  
+        width: calc(480px * 5);/*---修改图片数量的话需要修改下面的动画参数*/  
+    }  
+.play{  
+        animation: ma 20s ease-out infinite alternate;/**/  
+    }  
+    @keyframes ma {/*---每图片切换有两个阶段：位移切换和静置。中间的效果可以任意定制----*/  
+        0%,20% {        margin-left: 0px;       }  
+        25%,40% {       margin-left: -480px;    }  
+        45%,60% {       margin-left: -960px;    }  
+        65%,80% {       margin-left: -1440px;    }  
+        85%,100% {      margin-left: -1920px;   }  
+    }  
+.num{  
+        position:absolute;z-index:10;  
+        display:inline-block;  
+        right:10px;top:240px;  
+        border-radius:100%;  
+        background:#f00;  
+        width:25px;height:25px;  
+        line-height:25px;  
+        cursor:pointer;  
+        color:#fff;  
+        text-align:center;  
+        opacity:0.8;  
+    }  
+.num:hover{background:#00f;}  
+.num:hover,#photos:hover{animation-play-state:paused;}  
+.num:nth-child(2){margin-right:30px}  
+.num:nth-child(3){margin-right:60px}  
+.num:nth-child(4){margin-right:90px}  
+.num:nth-child(5){margin-right:120px}  
+#a1:hover ~ #photos{animation: ma1 .5s ease-out forwards;}  
+#a2:hover ~ #photos{animation: ma2 .5s ease-out forwards;}  
+#a3:hover ~ #photos{animation: ma3 .5s ease-out forwards;}  
+#a4:hover ~ #photos{animation: ma4 .5s ease-out forwards;}  
+#a5:hover ~ #photos {animation: ma5 .5s ease-out forwards;}  
+@keyframes ma1 {100%{margin-left:-0px;} }  
+@keyframes ma2 {100%{margin-left:-480px;} }  
+@keyframes ma3 {100%{margin-left:-960px;} }  
+@keyframes ma4 {100%{margin-left:-1440px;} }  
+@keyframes ma5 {100%{margin-left:-1920px;} }
+.news{
+	float: right;
+	width: 500px;
+	height: 270px;
+	background-image: url(../images/bodybg.gif);
+}
+.xy{
+	color:#D10504;
+	font-weight: bold;
+	font-size: 18px;
+}
+.gg li a{
+	list-style: none;
+	font-size: 18px;
+	color: gray;
+}
+#sp{
+	color: #75A7D0;
+	font-weight: bold;
+}
+#sp1{
+	color: #E81010;
+	font-weight: bold;
+}
+#zhong{
+	width: 100%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+}
+h1{
+	font-weight: 800;
+	font-size: 40px;
+	color: #333333;
+}
+i{
+	color: #DF1E2D;
+}
+#pk{
+	text-align: center;
+	background-image: url(../images/hl1.png);
+     height: 60px;
+     width: 1000px;
+     float: left;
+     margin-top: 50px;
+     position: relative;
+     left: 170px;
+}
+h2{
+	color: white;
+   font-size: 30px;
+   font-weight: 30px;
+   margin:0px;
+   position: relative;
+   bottom: 3px;
+}
+
+.jxdb{
+	position: relative;
+	top:15px;
+}
+.daban{
+	color: #333333;
+	width: 300px;
+    font-size: 25px;
+	float: left;
+	font-weight: bold;
+}
+.dbx{
+	position: relative;
+	bottom: 20px;
+}
+h4{
+	font-size: 20px;
+	color: #333333;
+}
+h5{
+	font-size: 15px;
+	color: #333333;
+	font-weight: lighter;
+}
+.tjz{
+	height: 400px;
+	width: 400px;
+	float: left;
+}
+.vs{
+	float: left;
+}
+.mianfei {
+	width: 120px;
+	height: 50px;
+	position: relative;
+	top:220px;
+	text-align: center;
+	background-image: url(../images/mianfei.png);
+}
+.mianfei a{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.xiaoban{
+float: left; 
+color: #F53850;
+font-size: 25px;
+font-weight: bold;
+}
+h6{
+	font-size: 20px;
+	color: #F53850;
+	margin-top: 0px;
+}
+h7{
+	color: #333333;
+	font-size: 15px;
+	font-weight: lighter;
+	position: relative;
+	bottom: 35px;
+	margin-top: 10px;
+}
+.youtu{
+	float: left;
+}
+#footer{
+	height: 105px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+.ds li{
+	display: inline-block;
+	list-style-type: none;
+}
+.ds li a{
+	color:#333333;
+}
